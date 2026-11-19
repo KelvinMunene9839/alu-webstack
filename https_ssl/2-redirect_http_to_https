@@ -43,5 +43,5 @@ frontend http-in
 backend web-backend
     mode http
     balance roundrobin
-    server 7327-web-01 35.177.149.1:80 check
-    server 7327-web-02 3.9.169.82:80 check
+    server 7378-web-01 35.177.149.1:80 check
+    server 7378-web-02 3.9.169.82:80 check
